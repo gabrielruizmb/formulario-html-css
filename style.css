@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(
+    100deg,  
+    hsla(100, 50%, 50%, 1) 0%,
+    hsla(150, 50%, 50%, 1) 100%
+  );
+}
+
+form {
+  margin: auto;
+  width: 400px;
+  padding: 1rem;
+  border: 1px solid blue;
+  border-radius: 1rem;
+}
+
+form div+div {
+  margin-top: 1rem;
+}
+
+label {
+  display: inline-block;
+  width: 5.625rem;
+  text-align: right;
+}
